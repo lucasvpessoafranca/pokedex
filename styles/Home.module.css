@@ -1,0 +1,23 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  color: #e33d33;
+  text-align: center;
+  font-size: 3rem;
+  margin-right: 0.4rem;
+}
+.container span {
+  color: #000;
+}
+
+.pokemonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}

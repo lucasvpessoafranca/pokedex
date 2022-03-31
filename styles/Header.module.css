@@ -1,0 +1,46 @@
+.header {
+  background: #000;
+  color: #fff;
+  padding: 1rem 1.4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  font-size: 1rem;
+}
+
+.logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.container ul {
+  display: flex;
+  gap: 0 2rem;
+}
+.container ul li {
+  cursor: pointer;
+  display: block;
+}
+
+.container li a {
+  transition: 0.5s;
+  display: block;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  font-size: 1.335rem;
+}
+.container li a:hover {
+  color: #999;
+  border-color: #fff;
+}
